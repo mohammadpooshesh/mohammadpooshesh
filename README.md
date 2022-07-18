@@ -17,5 +17,8 @@ I'm a BackEnd developer at [Saafaa](https://saafaa.ir) and an artificial intelli
     <img src="instagram.svg" alt="instagram" style="vertical-align:top; margin:6px 4px">
   </a>  
 
+  <a href="https://twitter.com/mohammadpu6/" target="_blank">
+    <img src="twitter.svg" alt="twitter" style="vertical-align:top; margin:6px 4px">
+  </a>  
 
 
