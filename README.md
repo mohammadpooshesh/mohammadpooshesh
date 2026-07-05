@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1200&color=5E9FE8&center=true&vCenter=true&width=640&lines=Building+AI+that+understands+maps.;RAG+%C2%B7+Knowledge+Graphs+%C2%B7+MCP+%C2%B7+Agent+Tools;PostGIS+is+my+happy+place." alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1200&color=5E9FE8&center=true&vCenter=true&width=640&lines=Building+AI+that+understands+maps.;RAG+%C2%B7+Knowledge+Graphs+%C2%B7+MCP+%C2%B7+Agent+Tools;GeoLab+%26+GeoForge+%E2%80%94+GIS+tools+that+run+in+your+browser.;PostGIS+is+my+happy+place." alt="Typing intro"/>
 </p>
 
 ## `$ whoami --verbose`
@@ -59,7 +59,54 @@ geodata ──▶ PostGIS ──▶ embeddings ──▶ vector index
 - **Knowledge graphs** — places, entities, and relations that LLMs can actually reason over
 - **MCP servers & agent tools** — giving AI agents real GIS superpowers
 
-## Featured projects
+## Flagship builds
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⬡ GeoLab
+
+**Interactive GIS geometry laboratory** — what *regex101* is for regular expressions, GeoLab is for geospatial operations. Draw shapes on a real map, pick an operation, drag a slider — and watch the result update **live**. No Run button, no server, no install.
+
+- **Live preview** — every edit recomputes the result instantly
+- **Animation engine** — Buffer, Rotate, Scale & more rendered as scrubbable timeline frames
+- **~30 operations** — from Union & Clip to Voronoi, TIN, hulls and grids
+- **Code generator** — ready-to-copy equivalents in Turf.js, Shapely & PostGIS
+- **Web Worker powered** — heavy geometry off the main thread, UI never freezes
+
+`React` `TypeScript` `MapLibre GL` `Turf.js` `Vite`
+
+<p>
+  <a href="https://github.com/mohammadpooshesh/GeoLab"><img src="https://img.shields.io/badge/Open_GeoLab_→-5E9FE8?style=for-the-badge&logo=github&logoColor=0d1117" alt="Open GeoLab"/></a>
+  <img src="https://img.shields.io/github/stars/mohammadpooshesh/GeoLab?style=for-the-badge&labelColor=0d1117&color=5E9FE8" alt="GeoLab stars"/>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+### ◈ GeoForge
+
+**The VS Code for GeoJSON** — a professional GeoJSON IDE that runs entirely in the browser: a Monaco code editor, an interactive MapLibre map, and a VS Code-style feature explorer, all in real-time **bidirectional sync**. 100% client-side, no accounts.
+
+- **Bidirectional editing** — type code → map updates; draw on the map → code updates
+- **20+ geometry tools** — Buffer, Union, Simplify, Hulls… all inside a Web Worker
+- **Built for scale** — virtualized explorer stays smooth with 50,000+ features
+- **Real-time validation** — unclosed rings, non-WGS84 coords, duplicate IDs & more
+- **Pro workflow** — property grid, filter expressions, 200-step undo, auto-save
+
+`React` `TypeScript` `Monaco` `MapLibre GL` `Turf.js`
+
+<p>
+  <a href="https://github.com/mohammadpooshesh/GeoForge"><img src="https://img.shields.io/badge/Open_GeoForge_→-4FB9C9?style=for-the-badge&logo=github&logoColor=0d1117" alt="Open GeoForge"/></a>
+  <img src="https://img.shields.io/github/stars/mohammadpooshesh/GeoForge?style=for-the-badge&labelColor=0d1117&color=4FB9C9" alt="GeoForge stars"/>
+</p>
+
+</td>
+</tr>
+</table>
+
+## More projects
 
 |     | Project                                                                            | What it is                                                                      | Stack                    |
 | :-: | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------ |
