@@ -27,7 +27,7 @@ previously:
   - Backend engineering (Python · Django · PostgreSQL/PostGIS)
   - Computer Vision (OpenCV · YOLO · Raspberry Pi)
 architecture: clean, always
-coordinates: [35.6892, 51.3890]   # Tehran
+coordinates: [31.8974, 54.3569]   # Yazd
 crs: EPSG:4326
 ```
 
