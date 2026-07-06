@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1200&color=5E9FE8&center=true&vCenter=true&width=640&lines=Building+AI+that+understands+maps.;RAG+%C2%B7+Knowledge+Graphs+%C2%B7+MCP+%C2%B7+Agent+Tools;GeoLab+%26+GeoForge+%E2%80%94+GIS+tools+that+run+in+your+browser.;PostGIS+is+my+happy+place." alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1200&color=5E9FE8&center=true&vCenter=true&width=640&lines=Building+AI+that+understands+maps.;RAG+%C2%B7+Knowledge+Graphs+%C2%B7+MCP+%C2%B7+Agent+Tools;GeoLab+%C2%B7+GeoForge+%C2%B7+GeoExplain+%E2%80%94+GIS+in+your+browser.;PostGIS+is+my+happy+place." alt="Typing intro"/>
 </p>
 
 ## `$ whoami --verbose`
@@ -100,6 +100,29 @@ geodata ──▶ PostGIS ──▶ embeddings ──▶ vector index
 <p>
   <a href="https://github.com/mohammadpooshesh/GeoForge"><img src="https://img.shields.io/badge/Open_GeoForge_→-4FB9C9?style=for-the-badge&logo=github&logoColor=0d1117" alt="Open GeoForge"/></a>
   <img src="https://img.shields.io/github/stars/mohammadpooshesh/GeoForge?style=for-the-badge&labelColor=0d1117&color=4FB9C9" alt="GeoForge stars"/>
+</p>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### ⬢ GeoExplain
+
+**Understand spatial SQL visually** — *regex101 for PostGIS*. Draw a geometry (or import GeoJSON), pick a function like `ST_Buffer`, and watch a **step-by-step animation** of exactly what it does to your geometry — alongside live parameters, before/after stats and generated code. Pure client-side visualizer — no real SQL executed. **[Try the live demo →](https://mohammadpooshesh.github.io/GeoExplain/)**
+
+- **30 PostGIS functions** — geometry, measurement, processing, analysis & validation (`ST_Buffer` → `ST_MakeValid`)
+- **Step-by-step animations** — buffers grow, unions dissolve, splits pull apart; scrub the timeline both ways
+- **4-way code generator** — equivalent PostGIS, Turf.js, Shapely & GDAL/OGR, generated live
+- **Zero-dependency engine** — its own computational-geometry core (signed distance fields + marching squares); React is the only runtime library
+- **Compare mode** — draggable Before | After curtain, GeoJSON import, SVG / PNG export
+
+`React` `TypeScript` `SVG` `esbuild`
+
+<p>
+  <a href="https://mohammadpooshesh.github.io/GeoExplain/"><img src="https://img.shields.io/badge/Live_demo_→-BF8EDA?style=for-the-badge&logo=googlechrome&logoColor=0d1117" alt="GeoExplain live demo"/></a>
+  <a href="https://github.com/mohammadpooshesh/GeoExplain"><img src="https://img.shields.io/badge/Open_GeoExplain_→-BF8EDA?style=for-the-badge&logo=github&logoColor=0d1117" alt="Open GeoExplain"/></a>
+  <img src="https://img.shields.io/github/stars/mohammadpooshesh/GeoExplain?style=for-the-badge&labelColor=0d1117&color=BF8EDA" alt="GeoExplain stars"/>
 </p>
 
 </td>
