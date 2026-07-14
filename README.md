@@ -136,7 +136,7 @@ geodata ──▶ PostGIS ──▶ embeddings ──▶ vector index
 | <img src="https://cdn.simpleicons.org/flutter/5E9FE8" width="18" alt="Flutter"/> | **[karnama](https://github.com/mohammadpooshesh/karnama)**                         | Time tracker — cross-platform desktop app built with Flutter                    | `Flutter` `Desktop`      |
 | <img src="https://cdn.simpleicons.org/docker/5E9FE8" width="18" alt="Docker"/>   | **[map-tile-downloader](https://github.com/mohammadpooshesh/map-tile-downloader)** | Docker image for downloading map tiles in PNG & MBTiles formats                 | `Docker` `GIS` `MBTiles` |
 | <img src="https://cdn.simpleicons.org/python/5E9FE8" width="18" alt="Python"/>   | **[DomainHunter](https://github.com/mohammadpooshesh/DomainHunter)**               | Professional Domain OSINT framework — collects publicly available domain intel  | `Python` `OSINT`         |
-| <img src="https://cdn.simpleicons.org/javascript/#F7DF1E" width="18" alt="Javascript"/>   | **[ai-atlas](https://github.com/mohammadpooshesh/ai-atlas)** | Interactive, fully client-side 3D atlas of 60 AI algorithms — live simulations, math, code & quizzes · | `JavaScript` `WebGL` `PWA` |
+| <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="18" alt="Javascript"/>   | **[ai-atlas](https://github.com/mohammadpooshesh/ai-atlas)** | Interactive, fully client-side 3D atlas of 60 AI algorithms — live simulations, math, code & quizzes · | `JavaScript` `WebGL` `PWA` |
 
 ## Telemetry
 
