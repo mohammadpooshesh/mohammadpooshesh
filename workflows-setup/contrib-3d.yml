@@ -1,0 +1,25 @@
+name: Refresh 3D contribution skyline
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generate skyline + stat cards
+        run: CI_FETCH=1 node scripts/gen-contrib-3d.mjs assets
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets
+          git diff --cached --quiet || (git commit -m "chore: refresh 3D contribution skyline" && git push)
