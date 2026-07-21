@@ -1,0 +1,137 @@
+<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mohammad Pooshesh — AI Engineer · GeoAI">
+  <defs>
+    <clipPath id="card"><rect x="1" y="1" width="998" height="298" rx="18"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#080C14"/>
+      <stop offset="0.55" stop-color="#0D1526"/>
+      <stop offset="1" stop-color="#080C14"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="620" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+      <stop offset="0" stop-color="#5E9FE8"/>
+      <stop offset="0.5" stop-color="#8AD8E8"/>
+      <stop offset="1" stop-color="#BF8EDA"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 620 0; 0 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="topline" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5E9FE8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8AD8E8"/>
+      <stop offset="1" stop-color="#BF8EDA" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1000 0; 1000 0; -1000 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="35"/>
+    </filter>
+    <!-- Isometric 3D cubes: 4 contribution levels (GitHub dark-green palette) -->
+    <g id="cb1">
+      <polygon points="0,0 30,17 0,34 -30,17" fill="#0e4429"/>
+      <polygon points="30,17 0,34 0,50 30,33" fill="#0a3520"/>
+      <polygon points="-30,17 0,34 0,50 -30,33" fill="#072818"/>
+    </g>
+    <g id="cb2">
+      <polygon points="0,0 30,17 0,34 -30,17" fill="#006d32"/>
+      <polygon points="30,17 0,34 0,64 30,47" fill="#005527"/>
+      <polygon points="-30,17 0,34 0,64 -30,47" fill="#00401d"/>
+    </g>
+    <g id="cb3">
+      <polygon points="0,0 30,17 0,34 -30,17" fill="#26a641"/>
+      <polygon points="30,17 0,34 0,80 30,63" fill="#1d8034"/>
+      <polygon points="-30,17 0,34 0,80 -30,63" fill="#146127"/>
+    </g>
+    <g id="cb4">
+      <polygon points="0,0 30,17 0,34 -30,17" fill="#39d353"/>
+      <polygon points="30,17 0,34 0,96 30,79" fill="#2ca443"/>
+      <polygon points="-30,17 0,34 0,96 -30,79" fill="#1f7a32"/>
+    </g>
+    <g id="cbB">
+      <polygon points="0,0 30,17 0,34 -30,17" fill="#5E9FE8"/>
+      <polygon points="30,17 0,34 0,64 30,47" fill="#3D74BF"/>
+      <polygon points="-30,17 0,34 0,64 -30,47" fill="#2A5490"/>
+    </g>
+    <g id="cbP">
+      <polygon points="0,0 30,17 0,34 -30,17" fill="#BF8EDA"/>
+      <polygon points="30,17 0,34 0,64 30,47" fill="#9163B3"/>
+      <polygon points="-30,17 0,34 0,64 -30,47" fill="#6B4788"/>
+    </g>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="298" rx="18" fill="url(#bg)" stroke="#1C2A45" stroke-width="1.5"/>
+
+  <g clip-path="url(#card)">
+    <!-- aurora blobs -->
+    <ellipse cx="180" cy="40" rx="220" ry="90" fill="#5E9FE8" opacity="0.10" filter="url(#soft)">
+      <animate attributeName="cx" values="180;320;180" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="860" cy="260" rx="240" ry="100" fill="#BF8EDA" opacity="0.08" filter="url(#soft)">
+      <animate attributeName="cy" values="260;190;260" dur="16s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="560" cy="300" rx="200" ry="80" fill="#39d353" opacity="0.07" filter="url(#soft)">
+      <animate attributeName="cx" values="560;460;560" dur="18s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- animated top accent line -->
+    <rect x="1" y="1" width="998" height="3" fill="url(#topline)"/>
+
+    <!-- sparkles -->
+    <circle cx="622" cy="52" r="2" fill="#8AD8E8"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="688" cy="148" r="2" fill="#BF8EDA"><animate attributeName="opacity" values="0.9;0.15;0.9" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="962" cy="70" r="2.5" fill="#5E9FE8"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="38" r="1.5" fill="#39d353"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+
+    <!-- left: identity -->
+    <text x="64" y="104" font-family="JetBrains Mono, Fira Code, monospace" font-size="15" fill="#4F6B99">~/geoai $ whoami</text>
+    <rect x="212" y="92" width="9" height="15" fill="#5E9FE8"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></rect>
+
+    <text x="62" y="156" font-family="Segoe UI, Ubuntu, sans-serif" font-size="46" font-weight="800" letter-spacing="1.5" fill="url(#titleGrad)" filter="url(#glow)">MOHAMMAD POOSHESH</text>
+    <text x="64" y="192" font-family="Segoe UI, Ubuntu, sans-serif" font-size="18" fill="#9FB6D9">AI Engineer · GeoAI — RAG · Knowledge Graphs · MCP · Agent Tools</text>
+
+    <!-- chips -->
+    <g font-family="JetBrains Mono, Fira Code, monospace" font-size="13">
+      <rect x="62" y="216" width="196" height="30" rx="15" fill="#101A2E" stroke="#22304E"/>
+      <text x="80" y="236" fill="#9FB6D9">📍 Yazd · EPSG:4326</text>
+      <rect x="272" y="216" width="306" height="30" rx="15" fill="#101A2E" stroke="#22304E"/>
+      <text x="290" y="236" fill="#9FB6D9">⚡ building AI that understands maps</text>
+    </g>
+
+    <!-- right: 3D contribution skyline -->
+    <ellipse cx="830" cy="262" rx="160" ry="18" fill="#39d353" filter="url(#soft)">
+      <animate attributeName="opacity" values="0.08;0.18;0.08" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -5; 0 0" dur="6s" repeatCount="indefinite"/>
+      <use href="#cb2" x="830" y="90"/>
+      <use href="#cb1" x="860" y="121"/>
+      <use href="#cb3" x="800" y="91"/>
+      <use href="#cb3" x="890" y="108"/>
+      <use href="#cb4" x="830" y="92"/>
+      <use href="#cb1" x="770" y="138"/>
+      <use href="#cb2" x="920" y="141"/>
+      <use href="#cb2" x="860" y="141"/>
+      <use href="#cb3" x="800" y="125"/>
+      <use href="#cb2" x="740" y="141"/>
+      <use href="#cb1" x="890" y="172"/>
+      <use href="#cb4" x="830" y="126"/>
+      <use href="#cb2" x="770" y="158"/>
+      <use href="#cb3" x="860" y="159"/>
+      <use href="#cb3" x="800" y="159"/>
+      <use href="#cb4" x="830" y="160"/>
+    </g>
+
+    <!-- floating accent cubes -->
+    <g transform="translate(655,58) scale(0.72)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -10; 0 0" dur="5s" repeatCount="indefinite"/>
+        <use href="#cbB" x="0" y="0"/>
+      </g>
+    </g>
+    <g transform="translate(690,196) scale(0.55)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 12; 0 0" dur="7s" repeatCount="indefinite"/>
+        <use href="#cbP" x="0" y="0"/>
+      </g>
+    </g>
+  </g>
+</svg>
