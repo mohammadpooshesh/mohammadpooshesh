@@ -159,9 +159,9 @@ geodata ──▶ PostGIS ──▶ embeddings ──▶ vector index
 ## Recent transmissions
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/mohammadpooshesh/DomainHunter/pull/1) in [mohammadpooshesh/DomainHunter](https://github.com/mohammadpooshesh/DomainHunter)
-2. 💪 Opened PR [#1](https://github.com/mohammadpooshesh/DomainHunter/pull/1) in [mohammadpooshesh/DomainHunter](https://github.com/mohammadpooshesh/DomainHunter)
-3. 🚀 Published release [chera v0.1.0](https://github.com/mohammadpooshesh/chera/releases/tag/v0.1.0) in [mohammadpooshesh/chera](https://github.com/mohammadpooshesh/chera)
+1. 🎉 Merged PR [#4](https://github.com/mohammadpooshesh/DomainHunter/pull/4) in [mohammadpooshesh/DomainHunter](https://github.com/mohammadpooshesh/DomainHunter)
+2. 💪 Opened PR [#4](https://github.com/mohammadpooshesh/DomainHunter/pull/4) in [mohammadpooshesh/DomainHunter](https://github.com/mohammadpooshesh/DomainHunter)
+3. ❌ Closed PR [#2](https://github.com/mohammadpooshesh/DomainHunter/pull/2) in [mohammadpooshesh/DomainHunter](https://github.com/mohammadpooshesh/DomainHunter)
 <!--END_SECTION:activity-->
 
 <sub>Auto-updated by GitHub Actions</sub>
